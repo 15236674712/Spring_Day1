@@ -15,6 +15,11 @@ public class TestFactory {
 
     @Test
     public   void   testSpring(){
+
+
+
+
+
         //读取Spring配置文件    创建Spring工厂
         ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
         //创建对象
